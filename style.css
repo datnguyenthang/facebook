@@ -1,0 +1,56 @@
+.wrap {
+    margin: 10px auto;
+}
+
+.wrap-title {
+    border-left: 4px solid #439453;
+    padding-left: 10px;
+    color: #439453;
+}
+
+.wrap-section {
+    width: 100%;
+}
+
+.wrap-section {
+    border-bottom: 1px solid #e3e3e3;
+    margin-top: 8px;
+}
+
+.wrap-section:last-child {
+    border-bottom: none;
+}
+
+.wrap-section-title {
+    margin-left: 12px;
+    color: #439453;
+    font-size: 22px;
+}
+
+.wrap-module {
+    list-style: none;
+}
+
+.module-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.icon-module {
+    background-image: url('https://image.flaticon.com/icons/png/512/2972/2972085.png');
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+}
+
+.check-module {
+    margin-left: auto;
+}
+
+@media  screen and (min-width: 920px) {
+    .wrap {
+        max-width: 50%;
+    }
+}
